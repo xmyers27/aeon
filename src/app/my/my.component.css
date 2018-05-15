@@ -1,8 +1,9 @@
 h1{
     color: white;
+    text-align: center;
 }
 .row {
-    height: 600px;
+    height: 1050px;
     background-color: #8c8c8c;
     margin-top: 0px;
  }
@@ -18,3 +19,9 @@ h1{
  .form-group {
      color: white;
  }
+
+
+
+
+
+
