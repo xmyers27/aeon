@@ -1,6 +1,6 @@
 
 body {
-    background-color: #606060;
+    background-color: white;
     height: 500px;
 }
 
@@ -13,26 +13,23 @@ nav {
     text-align: center;
 }
 
-container {
-    width: 400px;
-    height: 300px;
-    margin-right: 400px;
-    margin-top: 0px;
-
+.container-fluid {
+  padding-left: 0px;
 }
 
 .row {
-    height: 800px;
+    height: 600px;
     margin-top: 0px;
-    background-color: #8c8c8c;
+    background-color: white;
     padding-right: 0px;
 }
 
 .col-2 {
-    background-color: black;
+    background-color: #0f002b;
     color: black;
     margin-right: 100px;
     margin-top: 0px;
+    height: 600px;
 }
 
 .col-3 {
@@ -42,7 +39,7 @@ container {
     width: 100px;
 }
 
-.col-4 {
+.col-8 {
     background-color: #6441a5;
     margin-top: 100px;
     color: black;
@@ -73,4 +70,37 @@ container {
 .card.text-white.bg-secondary.mb-3 {
     margin-top: 20px;
     margin-right: 0px;
+}
+
+.card {
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+.vertical-menu {
+    width: 250px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #6441a5;
+}
+
+.vertical-menu a.active {
+    background-color: #6441a5;
+    color: white;
 }

@@ -4,19 +4,51 @@
 }
 
 .nav-link {
-    margin-left: 40px;
+    margin-left: 10px;
     color: white;
-}
-
-body {
-    background-color: green;
-}
-
-.navbar-brand {
-
 }
 
 .a {
     color: white;
 }
 
+.col-2 {
+    background-color: black;
+    color: black;
+    margin-right: 100px;
+    margin-top: 0px;
+}
+
+.row {
+    height: 800px;
+    margin-top: 0px;
+    background-color: white;
+    padding-right: 0px;
+}
+
+
+
+
+
+.vertical-menu {
+    width: 250px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #6441a5;
+    color: white;
+}

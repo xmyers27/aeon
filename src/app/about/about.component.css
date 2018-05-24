@@ -1,20 +1,22 @@
 h1{
-    color: white;
+    color: black;
 }
 .row {
-    height: 600px;
-    background-color: #8c8c8c;
+    height: 500px;
+    background-color: white;
     margin-top: 0px;
+ }
+
+ .mx-auto {
+     background-color: #6441a5;
  }
 
  .col-6 {
      background-color: #6441a5;
-     margin-top: 100px;
-     margin-left: 300px;
-     margin-bottom: 100px;
+     
      
  }
 
  p {
-     color: white;
+     color: black;
  }

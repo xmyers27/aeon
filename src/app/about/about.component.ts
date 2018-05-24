@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+constructor(public http: HttpClient) { }
 
   ngOnInit() {
-  }
+   this.http.get('http://localhost:3000/myPages')
+    .subscribe( (response: any) => {
+      console.log(response);
+    }, (error) => {
+      console.log(error);
 
+    });
+  }
 }
+
