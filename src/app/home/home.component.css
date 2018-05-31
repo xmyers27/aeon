@@ -18,18 +18,9 @@ nav {
 }
 
 .row {
-    height: 600px;
     margin-top: 0px;
     background-color: white;
     padding-right: 0px;
-}
-
-.col-2 {
-    background-color: #0f002b;
-    color: black;
-    margin-right: 100px;
-    margin-top: 0px;
-    height: 600px;
 }
 
 .col-3 {
@@ -42,7 +33,12 @@ nav {
 .col-8 {
     background-color: #6441a5;
     margin-top: 100px;
+    margin-left: 100px;
     color: black;
+    width: 100px;
+}
+.col {
+    height: 100px;
     width: 100px;
 }
 
@@ -67,9 +63,10 @@ nav {
     padding-top: 10px;
 }
 
-.card.text-white.bg-secondary.mb-3 {
+.card.text-white.mb-3 {
     margin-top: 20px;
     margin-right: 0px;
+    background-color: #1f1533;
 }
 
 .card {
@@ -103,4 +100,12 @@ nav {
 .vertical-menu a.active {
     background-color: #6441a5;
     color: white;
+}
+
+#content{
+    min-height: 100vh;
+}
+
+#main-container{
+    padding-bottom: 50px;
 }

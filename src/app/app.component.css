@@ -26,6 +26,14 @@
     padding-right: 0px;
 }
 
+.form-inline {
+    padding-right: 500px;
+}
+
+.form-control {
+    width: 250px;
+    height: 25px;
+}
 
 
 
