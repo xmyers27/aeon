@@ -24,3 +24,18 @@
 .container-fluid {
     padding-left: 0px;
   }
+
+
+.col-4 {
+    background-color: #1f1533;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.col-8 {
+    background-color: #6441a5;
+}
+
+#nav-tabContent {
+    color: white;
+}
