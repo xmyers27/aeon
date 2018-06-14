@@ -45,17 +45,9 @@
 
 
 #list-tab {
+    width: 327px;
 }
 
 #list-home-list a:hover {
     color: #6441a5;
-
-}
-
-h1 {
-    text-align: center;
-}
-
-#list-home {
-    padding-left: 20px;
 }

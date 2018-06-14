@@ -11,6 +11,12 @@ import { ContactComponent } from './contact/contact.component';
 import { MyComponent } from './my/my.component';
 import { BrowseComponent } from './browse/browse.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MandoComponent } from './mando/mando.component';
+import { Browse2Component } from './browse2/browse2.component';
+import { Browse3Component } from './browse3/browse3.component';
+import { Browse4Component } from './browse4/browse4.component';
+import { Browse5Component } from './browse5/browse5.component';
+import { GameComponent } from './game/game.component';
 
 
 @NgModule({
@@ -20,7 +26,13 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ContactComponent,
     MyComponent,
-    BrowseComponent
+    BrowseComponent,
+    MandoComponent,
+    Browse2Component,
+    Browse3Component,
+    Browse4Component,
+    Browse5Component,
+    GameComponent
   ],
   imports: [
     BrowserModule,

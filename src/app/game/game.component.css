@@ -27,15 +27,25 @@
 
 
 .col-3 {
-    background-color: #1f1533;
+
     margin-left: 0px;
     margin-top: 0px;
 }
 
 .col-8 {
-    background-color: #6441a5;
+
     margin-left: 60px;
-    margin-top: 60px;
+    padding-top: 60px;
+}
+
+.sidemenu{
+    background-color: #1f1533;
+    height: 100%;
+}
+
+.background {
+    background-color: #6441a5;
+    height: 100%;
 }
 
 #nav-tabContent {
@@ -44,8 +54,7 @@
 
 
 
-#list-tab {
-}
+
 
 #list-home-list a:hover {
     color: #6441a5;
@@ -54,8 +63,23 @@
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 #list-home {
     padding-left: 20px;
+}
+
+.height{
+    height: 100vh;
+}
+
+.list-group-item:first-child{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; 
+}
+
+p {
+    padding-left: 20px;
+    padding-top: 20px;
 }

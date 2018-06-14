@@ -20,9 +20,8 @@
 }
 
 .row {
-    height: 800px;
+    height: 100vh;
     margin-top: 0px;
-    background-color: white;
     padding-right: 0px;
 }
 
